@@ -5,57 +5,6 @@ import EmployeeData from './Employee.json';
 import './EmployeeInfo.css';
 // import { Icon } from 'semantic-ui-react'
 
-
-
-
-// function EmployeeInfo() {
-//     const [APIData, setAPIData] = useState([]);
-//             useEffect(() => {
-//                 axios.get(`http://localhost:8000/DataVariable`)
-//             .then((response) => {
-//                 setAPIData(response.data);
-//             })
-//        }, [])
-
-//         const Body = APIData.map(
-//             (info) => {
-//                 return (
-//                     <Table.Row>
-//                         <Table.Cell>{info.firstName}</Table.Cell>
-//                         <Table.Cell>{info.lastName}</Table.Cell>
-//                         <Table.Cell>{info.checkbox ? 'Checked': 'Unchecked'}</Table.Cell>
-//                         {/* <Table.Cell className="center"><button><Icon name='edit' /></button><button><Icon name='user delete' /></button></Table.Cell> */}
-
-//                     </Table.Row>
-//                     )
-//             }
-//         )
-
-//     return (
-//         <div>
-//                 <Table singleLine>
-//                 <Table.Header>
-//                     <Table.Row>
-//                         <Table.HeaderCell>First Name</Table.HeaderCell>
-//                         <Table.HeaderCell>Last Name</Table.HeaderCell>
-//                         <Table.HeaderCell>Confirmation</Table.HeaderCell>
-//                         {/* <Table.HeaderCell>Update/Delete</Table.HeaderCell> */}
-//                     </Table.Row>
-//                 </Table.Header>
-
-//                 <Table.Body>
-//                     {Body}
-//                 </Table.Body>
-//             </Table>
-//             </div>
-//     )
-// }
-
-// export default EmployeeInfo
-
-
-
-
 export class EmployeeInfo extends Component {
     render() {
 
@@ -111,25 +60,6 @@ export class EmployeeInfo extends Component {
                             </th>
                         </tr>
                     </thead>
-                    {/* <thead>
-                        <tr>
-                            <th>
-                                <input type="text" />
-                            </th>
-                            <th>
-                                <input type="text" />
-                            </th>
-                            <th>
-                                <input type="text" />
-                            </th>
-                            <th>
-                                <input type="text" />
-                            </th>
-                            <th>
-                                <input type="text" />   
-                            </th>
-                        </tr>
-                    </thead> */}
                     <tbody>
 
                         {DisplayData}
@@ -144,3 +74,51 @@ export class EmployeeInfo extends Component {
 }
 
 export default EmployeeInfo
+
+
+
+
+// function EmployeeInfo() {
+//     const [APIData, setAPIData] = useState([]);
+//             useEffect(() => {
+//                 axios.get(`http://localhost:8000/DataVariable`)
+//             .then((response) => {
+//                 setAPIData(response.data);
+//             })
+//        }, [])
+
+//         const Body = APIData.map(
+//             (info) => {
+//                 return (
+//                     <Table.Row>
+//                         <Table.Cell>{info.firstName}</Table.Cell>
+//                         <Table.Cell>{info.lastName}</Table.Cell>
+//                         <Table.Cell>{info.checkbox ? 'Checked': 'Unchecked'}</Table.Cell>
+//                         {/* <Table.Cell className="center"><button><Icon name='edit' /></button><button><Icon name='user delete' /></button></Table.Cell> */}
+
+//                     </Table.Row>
+//                     )
+//             }
+//         )
+
+//     return (
+//         <div>
+//                 <Table singleLine>
+//                 <Table.Header>
+//                     <Table.Row>
+//                         <Table.HeaderCell>First Name</Table.HeaderCell>
+//                         <Table.HeaderCell>Last Name</Table.HeaderCell>
+//                         <Table.HeaderCell>Confirmation</Table.HeaderCell>
+//                         {/* <Table.HeaderCell>Update/Delete</Table.HeaderCell> */}
+//                     </Table.Row>
+//                 </Table.Header>
+
+//                 <Table.Body>
+//                     {Body}
+//                 </Table.Body>
+//             </Table>
+//             </div>
+//     )
+// }
+
+// export default EmployeeInfo

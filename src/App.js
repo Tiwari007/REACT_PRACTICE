@@ -1,12 +1,23 @@
 import './App.css';
-import EmployeeInfo from './components/EmployeeInfo';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from 'react-router-dom';
+import AppRoute from './AppRoute'
 function App() {
   return (
+    <Router>
     <div className="App">
       
-      <EmployeeInfo />
+        <AppRoute />
+      
+      
+      
       
     </div>
+    </Router>
   );
 }
 
