@@ -15,12 +15,15 @@ The page will reload when you make changes.
 
 ### `Table using Semantic-UI-react and data fetch using json file (JSON SERVER _ Commented Code)`
 
-![alt text]
+![Table and Get API Call](https://user-images.githubusercontent.com/33014036/148728671-bfbed9cd-7fd2-462d-bbf8-ec8d0a0d9a85.png)
+
 
 ### `Json-Server API's`
 
-![alt text]
+![JSON-SERVER](https://user-images.githubusercontent.com/33014036/148728705-9dfadb44-9428-40f4-830d-87c772ddf797.png)
+
 
 ### `fetch data using Json-Server API's`
 
-![alt text]
+![JSON-SERVER-GET-API](https://user-images.githubusercontent.com/33014036/148728719-31ddeec9-8563-431e-9eda-1b0be7f6428a.png)
+
