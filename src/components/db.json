@@ -1,0 +1,83 @@
+{
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "EmployeeInfo": [
+        {
+        "id": 1,
+        "Name": "Bucky",
+        "Age":23,
+        "Address":"Golden street",
+        "Country":"INDIA",
+        "isMarried":true
+        },
+        {
+        "id": 2,
+        "Name": "BuckyAlita",
+        "Age":23,
+        "Address":"Golden street",
+        "Country":"INDIA",
+        "isMarried":false
+        },
+        {
+        "id": 3,
+        "Name": "Bucky",
+        "Age":23,
+        "Address":"Golden street",
+        "Country":"INDIA",
+        "isMarried":true
+        },
+        {
+        "id": 4,
+        "Name": "Bucky",
+        "Age":23,
+        "Address":"Golden street",
+        "Country":"INDIA",
+        "isMarried":false
+        },
+        {
+        "id": 5,
+        "Name": "Bucky",
+        "Age":23,
+        "Address":"Golden street",
+        "Country":"INDIA",
+        "isMarried":true
+        },
+        {
+        "id": 6,
+        "Name": "Bucky",
+        "Age":23,
+        "Address":"Golden street",
+        "Country":"INDIA",
+        "isMarried":false
+        },
+        {
+        "id": 7,
+        "Name": "Bucky",
+        "Age":23,
+        "Address":"Golden street",
+        "Country":"INDIA",
+        "isMarried":false
+        },
+        {
+        "id": 8,
+        "Name": "Bucky",
+        "Age":23,
+        "Address":"Golden street",
+        "Country":"INDIA",
+        "isMarried":true
+        },
+        {
+        "id": 9,
+        "Name": "Bucky",
+        "Age":23,
+        "Address":"Golden street",
+        "Country":"INDIA",
+        "isMarried":false
+        }],
+        "DataVariable":[
+          {"id":"1","firstName":"vivek","lastName":"tiwari","checkbox":false},
+          {"id":"2","firstName":"Bucky","lastName":"Alita","checkbox":true}
+        ]
+
+  }
