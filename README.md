@@ -1,4 +1,5 @@
 ## REACT PRACTICE
+### Sample branch
 ### Clone the repo and use command `npm install (to install all dependency)`
 
 ### `npm start`
