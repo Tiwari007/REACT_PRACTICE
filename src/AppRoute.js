@@ -28,7 +28,6 @@ function AppRoute() {
                     <Route exact path='/form' element={< CreateDataForm />}></Route>
                 </Routes>
                 </React.Fragment>
-
     )
 }
 
